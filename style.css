@@ -1,0 +1,65 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+}
+body{
+    display: grid;
+    place-items: start center;
+    margin-top: 10%;
+}
+.big-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:600;
+    font-size: 40px;
+}
+.small-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--Desaturated-Red);
+}
+.card-title{
+    margin-top: 10%;
+    margin-inline-start: 18%;
+    margin-bottom: 20%;
+}
+.card-text{
+    margin-inline-start: 18%;
+    margin-inline-end: 18%;
+}
+.lbl{
+    color: var(--Desaturated-Red);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-inline-start: 31%;
+}
+.btn{
+    position: absolute;
+    background-color: var(--Soft-Red);
+    margin-top: 0.1%;
+    height: 45px;
+    width: 75px;
+    margin-left: 1%;
+}
+#Email{
+    margin-inline-start: 26%;
+    height: 45px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+#span1{
+    color: var(--Desaturated-Red);
+    font-weight: 200;
+    letter-spacing: 7px;
+}
+#span2{
+    letter-spacing: 7px;
+    color: var(--Dark-Grayish-Red);
+}
+.btn:hover{
+    background-color: var(--Desaturated-Red);
+}
